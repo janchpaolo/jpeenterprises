@@ -12,6 +12,7 @@
  */
 
 get_header(); ?>
+
 	<div id="primary" class="content-areas <?php do_action('store_primary-width') ?>">
 		<main id="main" class="site-main <?php do_action('store_main-class') ?>" role="main">
 

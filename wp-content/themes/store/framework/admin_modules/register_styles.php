@@ -20,6 +20,9 @@ function store_scripts() {
 
     wp_enqueue_style( 'store-swiperslider-style', get_template_directory_uri() . '/assets/css/swiper.min.css' );
 
+    wp_enqueue_style( 'store-admin-style', get_template_directory_uri() . '/assets/theme-styles/css/admin.css' );
+
+
     wp_enqueue_style( 'store-main-theme-style', get_template_directory_uri() . '/assets/theme-styles/css/'.get_theme_mod('store_skin', 'default').'.css' );
 
     wp_enqueue_script( 'store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );

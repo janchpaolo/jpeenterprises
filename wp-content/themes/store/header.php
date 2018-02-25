@@ -11,7 +11,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'store' ); ?></a>
-    <?php //get_template_part('modules/header/jumbosearch') ?>
+    <?php get_template_part('modules/header/jumbosearch') ?>
     <?php get_template_part('modules/header/top','bar') ?>
     <?php get_template_part('modules/header/masthead') ?>
 	<!-- Smooth scrolling-->
@@ -20,14 +20,8 @@
             <i class="fa fa-hand-o-down"></i>
         </a>
     </div>
-    <div style="width: 100%">
-    	<div class="row">
-    		<div class="col-md-6">first column</div>
-    		<div class="col-md-6">second column</div>
-    	</div>
-	</div>
-	<div class="mega-container">
 
+	<div class="mega-container">
 		<?php get_template_part('framework/featured-components/slider', 'swiper'); ?>
 		<?php if (class_exists('woocommerce')) : ?>	
 		<?php get_template_part('framework/featured-components/coverflow', 'product'); ?>

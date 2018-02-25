@@ -14,7 +14,6 @@
 
 get_header(); ?>
 
-
     <div id="primary-mono" class="content-area col-md-12 page">
         <main id="main" class="site-main" role="main">
 

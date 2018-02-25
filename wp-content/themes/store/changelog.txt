@@ -1,6 +1,11 @@
 ChangeLog
 =========
+Version: 1.1.2
+
+    i) Admin CSS bug fixed.
+
 Version 1.1.1
+
     i) Featured Area bug fixed on Mobile screens.
 
 Version 1.1.0
