@@ -21,6 +21,12 @@
         </a>
     </div>
 
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-6">first column</div>
+    		<div class="col-md-6" style="margin-right: -49px">second column</div>
+    	</div>
+	</div>
 	<div class="mega-container">
 		<?php get_template_part('framework/featured-components/slider', 'swiper'); ?>
 		<?php if (class_exists('woocommerce')) : ?>	
